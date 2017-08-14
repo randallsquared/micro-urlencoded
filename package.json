@@ -1,0 +1,32 @@
+{
+  "name": "micro-urlencoded",
+  "version": "0.1.0",
+  "description": "Parse query strings and form-urlencoded bodies for Zeit's Micro",
+  "main": "index.js",
+  "author": "Randall Randall <randall@randallsquared.com>",
+  "license": "UNLICENSE",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/randallsquared/micro-urlencoded.git"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "form-urlencoded",
+    "micro",
+    "qs",
+    "urlencoded"
+  ],
+  "dependencies": {
+    "is-string": "^1.0.4",
+    "micro": "^8.0.2",
+    "qs": "^6.5.0"
+  },
+  "devDependencies": {
+    "ava": "^0.21.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "test-listen": "^1.0.2"
+  }
+}
